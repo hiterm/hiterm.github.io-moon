@@ -62,6 +62,7 @@ github-url:         htlsne
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+blog:               http://htlsne.hatenablog.com
 
 # Gems
 gems:
