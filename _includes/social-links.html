@@ -26,4 +26,18 @@
                         {% if site.xmpp %}<a class="social-btn" href="xmpp:{{ site.xmpp }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-lightbulb-o"></i></a>{% endif %}
                         {% if site.hackernews %}<a class="social-btn" href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i></a>{% endif %}
                         {% if site.blog %}<a class="social-btn" href="{{ site.blog }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-pen-square"></i></a>{% endif %}
+
+                        {% if site.qiita %}<a class="social-btn" href="{{ site.qiita }}" target="_blank" rel="noopener noreferrer">
+                            <span class="fa-layers fa-fw">
+                                <i class="fas fa-square"></i>
+                                <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4" style="font-weight:900">Q</span>
+                            </span>
+                        </a>{% endif %}
+
+                        {% if site.mastodon %}<a class="social-btn" href="{{ site.mastodon }}" target="_blank" rel="noopener noreferrer">
+                            <span class="fa-layers fa-fw">
+                                <i class="fas fa-square"></i>
+                                <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4" style="font-weight:900">m</span>
+                            </span>
+                        </a>{% endif %}
                   </h3>

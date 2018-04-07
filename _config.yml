@@ -62,6 +62,8 @@ github-url:         htlsne
 #xmpp:              username@server.com
 #hackernews:        username
 blog:               http://htlsne.hatenablog.com
+qiita:              https://qiita.com/htlsne
+mastodon:           https://mstdn.jp/@htlsne
 
 # Gems
 gems:
